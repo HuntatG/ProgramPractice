@@ -7,6 +7,12 @@
 - 至少用两种方法实现这个函数
 
 提示：  
+
+输出可以使用console.log()函数
+```
+    console.log("test")
+```
+
 替换str的第一个x可以用replace
 ```
 str.replace(x,y)
@@ -54,10 +60,7 @@ str.replace(x,y)
 同时，Square类也要重写Rectangle对应的属性和函数
 
 提示：
-输出可以使用console.log()函数
-```
-    console.log("test")
-```
+
 
 求根号可以使用Math.sqrt()函数
 ```
