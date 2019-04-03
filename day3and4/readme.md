@@ -1,3 +1,29 @@
+# 字符串
+写一个函数replaceAll(str, x, y)，其逻辑如下
+
+- 首先判断str是否为字符串，如果不是则输出"target is not a string"
+- 如果是字符串则判断str中有没有x,如果没有则输出"None"
+- 否则向字符串str中的所有x替换为y
+- 至少用两种方法实现这个函数
+
+提示：  
+替换str的第一个x可以用replace
+```
+str.replace(x,y)
+```
+  
+切割字符串可以用str.split
+```
+    'xxx-xxx-xxx'.split('-')
+```
+  
+把数组拼接为字符串可以使用join
+
+```
+["I", "am", "a", "hero"].join(" ")
+```
+
+
 # 面向对象
 
 ## 写一个图形类Graphics，具体结构如下
@@ -24,5 +50,16 @@
 | length        |   -   |   边长   |
 | diagonal        |   函数   |   返回正方形对角线长度   |
 
-  
+
 同时，Square类也要重写Rectangle对应的属性和函数
+
+提示：
+输出可以使用console.log()函数
+```
+    console.log("test")
+```
+
+求根号可以使用Math.sqrt()函数
+```
+    Math.sqrt(4)
+```
