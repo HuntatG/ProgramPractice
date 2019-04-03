@@ -12,6 +12,8 @@
 | width     | - |   宽     |
 | length        |   -   |   长   |
 | area        |   函数   |   返回长方形的面积   |
+
+
 同时，长方形类Rectangle重写图形类Graphics的name属性，默认设为"长方形"，
 重写describe函数，输出name的同时也输出面积
 
@@ -21,4 +23,6 @@
 | :--------:   | :-----:  | :----:  |
 | length        |   -   |   边长   |
 | diagonal        |   函数   |   返回正方形对角线长度   |
+
+  
 同时，Square类也要重写Rectangle对应的属性和函数
